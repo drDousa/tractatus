@@ -1,0 +1,146 @@
+/* lpa.css version 2.0 */
+
+
+body 
+{
+background-color: #ffffff; 
+color: #000000;
+font-family: arial;
+font-size: 10pt;
+text-align: left;
+}
+
+.title
+{
+position: absolute;
+left: 0px;
+width: 600pt;
+font-family: arial;
+font-size: 16pt;
+text-align: left;
+}
+
+ .author{
+width: 600pt;
+font-size: 12pt;
+}
+
+.buttons
+{
+display: none;
+}
+
+.navigation
+{
+display: none;
+}
+
+.text 
+{
+position: absolute;
+top: 100pt;
+background-color: #ffffff; /* white*/
+color: #000000; /* black*/
+}
+
+.thesisnumber
+{
+width: 60pt;
+padding: 0pt;
+}
+
+.andenken
+{
+width: 300pt;
+padding: 5pt;
+}
+
+.motto
+{
+width: 300pt;
+padding: 5pt;
+}
+
+.note
+{
+display: none;
+}
+
+.preamble
+{
+display: none;
+}
+
+.thesis
+{
+display: none;
+}
+
+.image
+{
+text-align: center;
+}
+
+.cell
+{
+background-color: #FFFFFF;
+}
+
+.content
+{
+display: none;
+}
+
+A
+{
+color: #000000;
+}
+
+IMG
+{
+align: left;
+}
+
+h1
+{
+FONT-SIZE: 16pt;
+TEXT-TRANSFORM: lowercase;
+}
+
+h2
+{
+PADDING-TOP: 2pt;
+PADDING-LEFT: 2pt;
+PADDING-RIGHT: 2pt;
+FONT-SIZE: 14pt;
+TEXT-TRANSFORM: lowercase;
+}
+
+p
+{
+margin: 0pt;
+//padding: 1pt;
+}
+
+.alinea
+{
+text-indent: 15pt;
+}
+
+tr
+{
+page-break-before: auto;
+}
+
+td
+{
+padding: 0pt;
+color: #000000;
+font-family: arial;
+font-size: 10pt;
+text-align: left;
+}
+
+
+
+

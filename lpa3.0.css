@@ -1,0 +1,277 @@
+/* lpa.css version 3.0.0, mobile first*/
+
+
+* {
+box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {
+    background-color: #001100;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 0%;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 150%;
+    overflow: hidden;
+}
+
+.title
+{
+    background-color: #114400;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+    margin: 1px;
+    border:0px;
+	padding: 10px;
+	font-size: 1.1em;
+	color: #FFFFEE;
+	text-align: center;
+}
+
+.author
+{
+    position: relative;
+    font-size: 0.8em;
+	color: #FFD700;
+}
+
+.text 
+{
+    padding: 20px;
+    background-color: #FFFFEE;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	margin-top:1px;
+    margin-bottom:1px;
+	padding: 30px;
+	color: #114400;
+	text-align: left;
+	overflow:visible;
+}
+
+.inputfield {
+    padding:6px 10px;
+    background-color: #FFD700;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    border:0px;
+    font-size: 1em;
+    color: #114400;
+    text-align: left;
+}
+
+.thesisnumber
+{
+    width: 75px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.alinea
+{
+    text-indent: 40px;
+}
+
+td
+{
+    padding-top: 0px;
+    font-size: 1.2em;
+    color: #114400;
+    text-align: left;
+    page-break-before: auto;
+}
+
+.small
+{
+    padding-top: 0px;
+    color: #114400;
+    font-family: arial;
+    font-size: 20px;
+    text-align: left;
+    page-break-before: auto;
+}
+
+.menu {
+    font-size: 1.2em
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 1px;
+}
+
+.myButton {
+	background-color: #114400;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+    margin:0px;
+	border:0px;
+    font-size: 0.9em;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFD700;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#336622;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.andenken
+{
+padding: 5px;
+}
+
+.motto
+{
+padding: 5px;
+}
+
+.note
+{
+display: none;
+}
+
+.preamble
+{
+display: none;
+}
+
+.thesis
+{
+display: none;
+}
+
+.image
+{
+text-align: center;
+}
+
+.cell
+{
+background-color: #FFFFFF;
+}
+
+.content
+{
+display: none;
+}
+
+a
+{
+text-decoration: none;
+}
+
+a:link
+{
+}
+
+a:visited
+{
+}
+
+a:hover
+{
+color: #dd2200;
+}
+
+a:active
+{
+color: #dd2200;
+}
+
+p{
+    margin: 0px;
+}
+
+p.help
+{
+margin: 0px;
+padding: 10px;
+}
+
+@media only screen and (min-width: 1085px), only screen and (max-height: 600px){
+    /* For desktops: */
+    body {
+        background-color: #001100;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 100%;
+    }
+    
+    .myButton {
+        font-size: 0.8em;
+    }
+    
+    .inputfield {
+        font-size: 0.8em;
+    }
+
+    
+    .text {
+    	height: 580px;
+    	padding: 20px;
+    	overflow: auto;
+    }
+    
+	.alinea
+	{
+		text-indent: 20px;
+	}
+    
+    .small
+    {
+        padding-top: 0px;
+        color: #114400;
+        font-size: 0.8em;
+        text-align: left;
+        page-break-before: auto;
+    }
+    
+    h4 {
+        padding-top: 10px;
+    }
+	
+	.thesisnumber {
+		width: 60px;
+        font-size: 1em;
+	}
+    
+    td {
+        font-size: 1em;
+    }
+
+
+}
+
